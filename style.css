@@ -1,0 +1,46 @@
+.memeCanvas {
+	position: relative;
+}
+
+form {
+	background-color: rgb(235, 45, 45);
+	text-align: center;
+}
+
+label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.newMeme {
+	position: relative;
+}
+
+.memeUpper {
+	position: absolute;
+	bottom: 67%;
+	left: 205px;
+	font-family: Impact;
+	color: white;
+	font-size: 40px;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: 2px;
+}
+
+.memeLower {
+	position: absolute;
+	bottom: -15%;
+	left: 205px;
+	font-family: Impact;
+	color: white;
+	font-size: 40px;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: 2px;
+}
+
+.memeImg {
+	height: 246px;
+	width: 470px;
+	top: -50px;
+	left: -50px;
+}
